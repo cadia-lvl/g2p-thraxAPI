@@ -1,0 +1,13 @@
+name: fairseq-lstm
+channels:
+ - conda-forge
+ - defaults
+ - pytorch
+dependencies:
+ - python=3.7.4
+ - pip
+ - pytorch=1.2.0
+ - pip:
+   - fastapi
+   - uvicorn
+   - fairseq==0.8.0
